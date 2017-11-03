@@ -107,6 +107,7 @@ void EXTI9_5_IRQHandler ()
 }
 void EXTISetup()
 {
+	//Start
 	/* Enable SWO output */
 	DBGMCU->CR = 0x00000020;
 	
